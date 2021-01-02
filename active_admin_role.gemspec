@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "activeadmin", ">= 1.2.0"
   gem.add_dependency "cancancan",   ">= 1.15.0"
-  gem.add_dependency "railties",    ">= 5.0.0"
+  gem.add_dependency "railties",    "< 6.2"
 end
